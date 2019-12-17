@@ -76,7 +76,7 @@
 									echo '<h1 class="h1-responsive font-weight-bold mt-sm-5" style="color: white">'.$userarray[2].'</h1> <strong>Lost By:</strong> '.$userarray[1].'<br><strong>Email at:</strong> '.$userarray[5].'<br> <strong>Item Description:</strong> '.$userarray[4].'<br> <a class="btn btn-outline-white" role="button" href="lostindex.php">Lost Items List</a>';
 									if ($userarray[3]!== "NOADD"){
 										$tempAddress= str_replace('+', ' ', $userarray[3]);
-										echo '</div> <div class="col-md-3" style="color: white; text-align: center; margin: auto;"><strong>Lost at: </strong>'.$tempAddress.'<br><img src="https://maps.googleapis.com/maps/api/staticmap?center='.$userarray[3].'&zoom=15&size=250x250&markers=color:red%7Clabel:F%7C'.$userarray[3].'&key=AIzaSyDBkJkvXmgtq3jOA17xwRf6qk4N-t8Z4g8"></div>';
+										echo '</div> <div class="col-md-3" style="color: white; text-align: center; margin: auto;"><strong>Lost at: </strong>'.$tempAddress.'<br><img src="https://maps.googleapis.com/maps/api/staticmap?center='.$userarray[3].'&zoom=15&size=250x250&markers=color:red%7Clabel:F%7C'.$userarray[3].'&key=donezo"></div>';
 									}
 									else {
 										echo '</div> <div class="col-md-3" style="color: white; text-align: center; margin: auto;"> Lost at unknown location</div>';
