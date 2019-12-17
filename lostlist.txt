@@ -1,0 +1,4 @@
+LOID#000001|Andrew A|Keys|Tate+Center,Athens,GA|six keys, large uga keychain|ara88333@uga.edu
+LOID#000002|Andrew A|Keys|NOADD|six keys, large uga keychain|ara88333@uga.edu
+
+LOID#000003|Miles King Jordan|Phone|Zell+Miller+Learning+Center,Athens,GA|black keys|mileskjordan@gmail.com
